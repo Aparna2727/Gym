@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_container{
+    border: 2px solid black;
+    /* background: black; */
+    /* background: url("https://images.pexels.com/photos/7599717/pexels-photo-7599717.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    /* background: url("https://images.pexels.com/photos/6044235/pexels-photo-6044235.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    background: url("https://images.pexels.com/photos/4862863/pexels-photo-4862863.jpeg?auto=compress&cs=tinysrgb&w=600");
+    /* background: url("https://images.pexels.com/photos/7457656/pexels-photo-7457656.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.contents{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.card1_part{
+    /* border: 2px solid green; */
+    margin: 4rem;
+    padding: 2rem;
+    background:rgb(39, 36, 36);
+    /* border-radius: 1rem; */
+    margin-right: 10rem;
+    height: 50vh;
+   
+}
+.card1_part:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+/* .C1{
+    border: 2px solid pink;
+    padding: 2rem;
+} */
+
+.head1{
+    /* border: 2px solid green; */
+    padding: 1rem;
+    margin-top: -2rem;
+    text-align: center;
+}
+
+.head1 h4{
+    color: #fff;
+    font-size: large;
+    margin-bottom: 0.5rem;
+}
+
+.head1 h1{
+ color: green;
+ font-size: 3rem;
+ font-style: italic;
+}
+.mid1{
+    /* border: 2px solid green; */
+    padding: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.mid1 p{
+    color: rgb(200, 198, 198);
+    font-weight: bold;
+    padding: .5rem;
+    margin-right: 2rem;
+}
+
+.btn_card1{
+    padding: 1rem;
+    margin: 1rem;
+    width: 13vw;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.btn_card1:hover{
+    background: transparent;
+    border: 2px solid  #fff;
+    color: #fff;
+}
+
+
+ .card2_part{
+/* border: 2px solid red; */
+margin-left:-8rem ;
+  
+}
+.C2{
+    /* border: 2px solid green; */
+    padding: 2rem;
+    margin-top: 1.2rem;
+    height: 60vh;
+    width: 15rem;
+    /* border-radius: 1rem; */
+    background: lightcyan;
+    
+}
+.C2:hover{
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.head2{
+    padding: 1rem;
+    text-align: center;
+}
+.head2 h4{
+    color: green;
+    font-size: large;
+    margin-bottom: 0.5rem;
+}
+.head2 h1{
+    color: green;
+    font-size: 3rem;
+    font-style: italic;
+}
+.mid2{
+    /* border: 2px solid green; */
+    /* padding: 1rem; */
+    margin-top: 1rem;
+    
+}
+
+.mid2 p{
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+    padding: .5rem;
+    /* margin-right: 2rem; */
+}
+.btn_card2{
+    padding: 1rem;
+    margin: 1rem;
+    width: 13vw;
+    background-color: green;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.btn_card2:hover{
+    background: transparent;
+    border: 2px solid  green;
+    color: green;
+}
+
+.text_part{
+    /* border: 2px solid blue; */
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+}
+
+.text1_intro{
+    /* border: 2px solid  green; */
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+    padding: 1rem;
+}
+
+.text1_intro h3{
+    color: gray;
+    font-weight: bold;
+    /* padding: 1rem; */
+    border-bottom: 4px solid green;
+    width: 7vh;
+    margin-bottom: 1rem;
+}
+.text1_intro h2{
+    color:rgb(110, 137, 110);
+}
+.text1_intro p{
+    color: gray;
+    /* border: 2px solid red; */
+    padding: 1rem;
+}
+
+.text2_plan{
+    /* border: 2px solid yellow; */
+    padding: 1rem;
+}
+
+.text2_plan h3{
+    color:rgb(110, 137, 110);
+    padding: 1rem;
+}
+.text2_plan p{
+    color: gray;
+}

@@ -1,0 +1,48 @@
+.heading {
+    /* margin-top: 2rem; */
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    /* border: 2px solid green; */
+    height: 40vh;
+    background: url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: red;
+  }
+
+  .slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+    scroll-behavior: smooth;
+    position: relative;
+    margin-top: 1rem;
+    z-index: 5;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider img:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .slide {
+    position: relative;
+  }
+  
+  .slide img {
+    width: 20rem; /* Adjust the width as per your requirement */
+    height: 20rem; /* Adjust the height as per your requirement */
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+  }
